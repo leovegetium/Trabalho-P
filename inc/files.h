@@ -1,8 +1,7 @@
 #ifndef FILES_H
 #define FILES_H
 #include "base.h"
-#include "area.h"
-#include "animal.h"
+#include "zoodata.h"
 
 animal * importAnimalData();
 area * importAreaData(int * vecArea);

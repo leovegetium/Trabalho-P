@@ -1,8 +1,7 @@
 #include "base.h"
 #include "interface.h"
 #include "files.h"
-#include "animal.h"
-#include "area.h"
+#include "zoodata.h"
 
 int main(int argc, char const *argv[]) {
   animal * animalList = NULL;
