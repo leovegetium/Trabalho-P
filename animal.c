@@ -206,11 +206,10 @@ void addAnimal(animal ** a, area * z, int zSize){
   printf("Animal added. Enter to continue");
   getchar();
 }
-
+//TO DO
 void birthAnimal(){
-	//
 }
-
+//TO DO
 void transferAnimal(){
 }
 
