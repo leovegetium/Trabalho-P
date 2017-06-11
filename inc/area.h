@@ -11,7 +11,10 @@ struct area{
 };
 
 void listAreas(area * a, int size);
-void addArea(area * a, int size);
-void deleteArea(area * a, int size);
+void addArea(area ** a, int *size);
+void deleteArea(area ** a, int *size);
+
+int checkAreaExist(area * z, int zSize, char * areaName);
+int getAreaCapacity(area * z, int zSize, char * areaName);
 
 #endif
