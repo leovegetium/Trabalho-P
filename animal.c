@@ -208,6 +208,7 @@ void addAnimal(animal ** a, area * z, int zSize){
 }
 
 void birthAnimal(){
+	//
 }
 
 void transferAnimal(){
