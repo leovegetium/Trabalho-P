@@ -50,13 +50,14 @@ void menu(animal ** a, area ** z, int * zSize){
             break;
 
             case 2:
+              deleteArea(*a, z, zSize);
             break;
 
             case 3:
               listAreas(*z, *zSize);
             break;
 
-            case 4:
+            case 4: // BACK
             break;
 
             default:
@@ -111,12 +112,15 @@ void menu(animal ** a, area ** z, int * zSize){
           break;
 
           case 2:
+            deleteAnimal(a);
           break;
 
           case 3:
+            transferAnimal(*a, *z, *zSize);
           break;
 
           case 4:
+            birthAnimal(*a, *z, *zSize);
           break;
 
           case 5:
