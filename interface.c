@@ -42,11 +42,11 @@ void menu(animal ** a, area ** z, int * zSize){
           printTxt("areas.txt");
           scanf("%d", &option);
           getchar();
-          //fflush(stdin);
           clear_screen();
 
           switch (option) {
             case 1:
+              addArea(z, zSize);
             break;
 
             case 2:
