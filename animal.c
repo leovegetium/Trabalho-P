@@ -1,19 +1,5 @@
 #include "animal.h"
 
-int checkAreaExist(area * z, int zSize, char * areaName){
-  for(int i = 0; i < zSize; i++)
-    if(strcmp(z[i].name, areaName) == 0)
-      return 1;
-
-  return 0;
-}
-
-int getAreaCapacity(area * z, int zSize, char * areaName){
-  for(int i = 0; i < zSize; i++)
-    if(strcmp(z[i].name, areaName) == 0)
-      return z[i].capacity;
-}
-
 int getAreaCapacityUsed(animal * a, char * areaName){
   float sum = 0;
 

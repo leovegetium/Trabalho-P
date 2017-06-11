@@ -20,4 +20,7 @@ struct animal{
 
 void listAnimal(animal * a);
 void addAnimal(animal ** a, area * z, int zSize);
+
+int getAreaCapacityUsed(animal * a, char * areaName);
+
 #endif
