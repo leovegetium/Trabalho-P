@@ -1,0 +1,8 @@
+-----------$ Animals $-----------
+- 1 - List INFO                 -
+- 2 - Delete Animal             -
+- 3 - Transfer Animal           -
+- 4 - Animal Birth              -
+- 5 - Add Animal                -
+- 6 - Back                      -
+---------------------------------

@@ -1,0 +1,7 @@
+---------------$ Animal Info $---------------
+- 1 - All Animal                            -
+- 2 - All Animals in Specific Location      -
+- 3 - All Animals of Specific Specie        -
+- 4 - Specific Animal Detailed Information  -
+- 5 - Back                                  -
+---------------------------------------------

@@ -1,0 +1,4 @@
+Area1 100 2 Area2 Area3 
+Area2 200 1 Area1 
+Area3 300 2 Area1 Area4 
+Area4 400 1 Area3 

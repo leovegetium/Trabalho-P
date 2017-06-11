@@ -1,0 +1,6 @@
+----------$ Areas $---------
+- 1 - Add Area             -
+- 2 - Delete Existing Area -
+- 3 - List Areas           -
+- 4 - Back                 -
+----------------------------
